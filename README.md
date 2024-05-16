@@ -1,5 +1,7 @@
 # Churn Analysis
-Welcome to the Churn Analysis repository! This project focuses on analyzing customer churn data to predict which customers are likely to leave a service or subscription. Understanding churn is crucial for businesses looking to improve customer retention strategies and enhance overall customer satisfaction.
+Welcome to the Churn Analysis repository! This project focuses on analyzing customer churn data to predict which customers are likely to leave a service or subscription. Understanding churn is crucial for businesses looking to improve customer retention strategies and enhance overall customer satisfaction. 
+
+Another important topic is, explaining complex results to non-tec stakeholders, to deal with the output of a black box model such as xgboost, I've leveraged shap package to interpret the importance of the variables.
 
 ## Project Overview
 Churn analysis aims to identify the key factors that contribute to customer attrition. This repository contains the datasets, scripts, and models used to predict churn based on historical data. The analysis can help businesses develop targeted interventions to retain high-risk customers.
@@ -12,19 +14,18 @@ What things you need to install the software and how to install them
 
 ```bash
 pip install numpy
+pip install scipy
+pip install itertools
 pip install pandas
 pip install scikit-learn
 pip install matplotlib
+pip install shap
+pip install xgboost
 ```
 A step-by-step series of examples that tell you how to get a development environment running:
 
 ```bash
 git clone https://github.com/IanniMuliterno/churn_analysis.git
-```
-Navigate to the project directory:
-```bash
-cd churn_analysis
-pip install -r requirements.txt
 ```
 
 # Contributing
