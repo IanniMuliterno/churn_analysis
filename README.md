@@ -36,3 +36,6 @@ We welcome contributions to this project. If you would like to contribute, pleas
 - Commit your Changes (git commit -m 'Add some AmazingFeature')
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
+
+# Reference
+Fridrich, M., & Dostál, P. (2022). User Churn Model in E-Commerce Retail. Scientific Papers of the University of Pardubice, Series D: Faculty of Economics and Administration, 30(1). [https://doi.org/10.46585/sp28031105](https://doi.org/10.46585/sp28031105)
