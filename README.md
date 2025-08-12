@@ -3,6 +3,8 @@ Welcome to the Churn Analysis repository! This project focuses on analyzing cust
 
 Another important topic is, explaining complex results to non-tec stakeholders, to deal with the output of a black box model such as xgboost, I've leveraged shap package to interpret the importance of the variables.
 
+We are going to use MLFlow and FAST API to monitor and deploy, respectively. 
+
 ## Project Overview
 Churn analysis aims to identify the key factors that contribute to customer attrition. This repository contains the datasets, scripts, and models used to predict churn based on historical data. The analysis can help businesses develop targeted interventions to retain high-risk customers.
 
@@ -21,8 +23,9 @@ pip install scikit-learn
 pip install matplotlib
 pip install shap
 pip install xgboost
+pip install mlflow
+pip install fastapi
 ```
-A step-by-step series of examples that tell you how to get a development environment running:
 
 ```bash
 git clone https://github.com/IanniMuliterno/churn_analysis.git
