@@ -4,3 +4,5 @@ user_data.csv
 usage_data.csv
 *.pkl
 *.pyc
+learnings.md
+churn_analysis.code-workspace
